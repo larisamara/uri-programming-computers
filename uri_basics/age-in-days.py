@@ -1,0 +1,7 @@
+number = int(input())
+a = int(number/365)
+m = int((number % 365) / 30)
+d = int((number % 365) % 30)
+print(a,"ano(s)")
+print(m,"mes(es)")
+print(d,"dia(s)")
