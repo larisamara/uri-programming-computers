@@ -1,5 +1,4 @@
-number = float(input())
-print(number)
+number = float(input())+0.0001
 print("NOTAS:")
 cem = int(number/100)
 print(cem, "nota(s) de R$ 100.00")
