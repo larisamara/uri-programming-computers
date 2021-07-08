@@ -1,4 +1,3 @@
-n = input()
-l = input()
-result = n * l
+n, l = input().split()
+result = int(n) * int(l)
 print(result)
