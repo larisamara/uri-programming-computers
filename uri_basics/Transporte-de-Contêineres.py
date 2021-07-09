@@ -1,0 +1,7 @@
+a, b, c = input().split()
+x, y, z = input().split()
+q1 = int(x) / int(a)
+q2 = int(y) / int(b)
+q3 = int(z) / int(c)
+q_total = int(q1) * int(q2) * int(q3)
+print(q_total)
