@@ -1,10 +1,7 @@
-altura = int(input())
-largura = int(input())
-inteiro1 = largura * altura
-inteiro2 = (largura -1) * (altura - 1)
-inteiro = inteiro1 + inteiro2
-metade1 = (altura + altura) - 2
-metade2 = (largura + largura) - 2
-metade = metade1 + metade2
-print(inteiro)
-print(metade)
+length, distance = input().split()
+cost_kilometer, cost_toll = input().split()
+spent_kilometer_total = int(cost_kilometer) * int(length)
+qtd_toll = int(length) / int(distance)
+spent_toll = int(qtd_toll) * int(cost_toll)
+result = spent_kilometer_total + spent_toll
+print(result)
