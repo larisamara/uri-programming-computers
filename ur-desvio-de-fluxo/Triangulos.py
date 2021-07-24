@@ -1,8 +1,12 @@
 a, b, c = input().split()
-if (((int(a) + int(b)) <= int(c)) and ((int(a) + int(c)) <= int(b)) and (int(b) + int(c)) <= int(a)):
-    print("n")
-elif (int(a) * 2) + (int(b) * 2) == int(c):
+if int(a) ** 2 < (int(b) ** 2) + (int(c) ** 2):
     print("a")
-
-else:
+elif int(a) ** 2 == (int(b) ** 2) + (int(c) ** 2):
+    print("r")
+elif int(a) ** 2 > (int(b) ** 2) + (int(c) ** 2):
     print("o")
+else:
+    print("n")
+Triângulo acutângulo: A² < B² + C²
+Triângulo retângulo: A² = B² + C²
+Triângulo obtusângulo: A² > B² + C²
